@@ -62,6 +62,41 @@ The three models were ensembled by averaging the output probabilities of each mo
 |:--:|
 |*Figure 4: Output of the ensembled model*|
 
+## How To Use?
+
+```bash
+# Clone this repository
+$ git clone 
+
+# download dataset from 
+# https://drive.google.com/file/d/1yU_MeDoMHnLg0vNAy4Hb7_liJBogWl_N/view?usp=share_link
+# create data folder in root directory
+$ mkdir data
+
+# unzip dataset in data folder
+$ unzip data.zip -d data
+
+# open jupyter notebook
+$ jupyter-notebook
+
+# open any-file.ipynb
+```
+
+## 🔧 Tools and Technology
+
+- ![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
+- ![Pytorch](https://img.shields.io/badge/Code-Pytorch-informational?style=flat&logo=pytorch&logoColor=white&color=2bbc8a)
+- ![Jupyter Notebook](https://img.shields.io/badge/Code-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a)
+- ![Numpy](https://img.shields.io/badge/Code-Numpy-informational?style=flat&logo=numpy&logoColor=white&color=2bbc8a)
+- ![Matplotlib](https://img.shields.io/badge/Code-Matplotlib-informational?style=flat&logo=matplotlib&logoColor=white&color=2bbc8a)
+- ![Kaggle](https://img.shields.io/badge/Tools-Kaggle-informational?style=flat&logo=kaggle&logoColor=white&color=2bbc8a)
+- ![Github](https://img.shields.io/badge/Tools-Github-informational?style=flat&logo=github&logoColor=white&color=2bbc8a)
+- ![Git](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)
+  
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Conclusion
 
 In this project, we developed a lung segmentation model using three different architectures and two sets of preprocessed data. The ensembled model achieved the highest segmentation accuracy on the dataset. The results demonstrate the effectiveness of ensembling models and the potential of Swin-UNetR, UNeTr and UNet for medical image segmentation tasks.
